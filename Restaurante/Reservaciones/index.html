@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Reservation Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <section class = "banner">
+            <h2>Reserva tu mesa ahora</h2>
+            <div class = "card-container">
+                <div class = "card-img">
+                    
+                </div>
+
+                <div class = "card-content">
+                    <h3>Reservación</h3>
+                    <form>
+                        <div class = "form-row">
+                            <select name = "days">
+                                <option value = "day-select">Selecione el dia</option>
+                                <option value = "sunday">Lunes</option>
+                                <option value = "monday">Martes</option>
+                                <option value = "tuesday">Miercoles</option>
+                                <option value = "wednesday">Juevez</option>
+                                <option value = "thursday">Viernes</option>
+                                <option value = "friday">Sabado</option>
+                                <option value = "saturday">Domingo</option>
+                            </select>
+
+                            <select name = "hours">
+                                <option value = "hour-select">Selecione la hora</option>
+                                <option value = "10">12:00pm</option>
+                                <option value = "10">1:00pm</option>
+                                <option value = "10">2:00pm</option>
+                                <option value = "10">3:00pm</option>
+                                <option value = "10">4:00pm</option>
+                                <option value = "10">5:00pm</option>
+                                <option value = "10">6:00pm</option>
+                            </select>
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "text" placeholder="Nombre completo">
+                            <input type = "text" placeholder="Numero de telefono">
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "number" placeholder="Cuantos personas?" min = "1" max="15">
+                            <input type = "submit" value = "Reservar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </body>
+</html>
